@@ -103,7 +103,7 @@ main,footer{position:relative;z-index:1}
 .capsule__ring::after{content:"";position:absolute;inset:-30px;border-radius:inherit;background:inherit;filter:blur(40px);opacity:.45;z-index:-1}
 @property --a{syntax:"<angle>";inherits:false;initial-value:0deg}
 @keyframes ring{to{--a:360deg}}
-.capsule img{width:100%;height:100%;object-fit:cover;object-position:50% 18%;border-radius:inherit;border:3px solid var(--bg)}
+.capsule img{width:100%;height:100%;object-fit:cover;object-position:90% 50%;border-radius:inherit;border:3px solid var(--bg)}
 .capsule__scan{position:absolute;inset:3px;border-radius:inherit;overflow:hidden;pointer-events:none}
 .capsule__scan::after{content:"";position:absolute;left:0;right:0;height:30%;top:-30%;background:linear-gradient(180deg,transparent,rgba(255,143,207,.22),transparent);animation:scan 4.5s ease-in-out infinite}
 @keyframes scan{to{top:100%}}
@@ -371,3 +371,7 @@ main,footer{position:relative;z-index:1}
 @keyframes loaderFail{to{opacity:0;visibility:hidden}}
 @media (max-width:640px){.hero__meta b{font-size:18px;white-space:nowrap}.hero__meta span{font-size:9.5px}}
 .radar__pt--l b{left:auto;right:18px}
+/* new hero photo: keep badges off Joy's face */
+.float-card--b{top:-7%;right:-6%}
+@media (max-width:640px){.float-card--b{top:-9%;right:-4px}}
+@media (max-width:1080px){.hero__visual{margin-top:64px}}
