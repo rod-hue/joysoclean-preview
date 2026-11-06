@@ -375,3 +375,6 @@ main,footer{position:relative;z-index:1}
 .float-card--b{top:-7%;right:-6%}
 @media (max-width:640px){.float-card--b{top:-9%;right:-4px}}
 @media (max-width:1080px){.hero__visual{margin-top:64px}}
+/* let the gradient fill reach the Y's right arm (negative tracking shrinks the box) */
+.hero__title .line:first-child .w{padding-right:.14em;margin-right:-.14em}
+.hero__title .line--script .w{padding-right:.1em}
