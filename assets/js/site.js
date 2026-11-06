@@ -202,6 +202,7 @@
     msgEl.textContent = txt;
     const ios = /iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent);
     send.href = `sms:+16292388298${ios ? '&' : '?'}body=${encodeURIComponent(txt)}`;
+    const mail = $('#qbMail'); if (mail) mail.href = `mailto:hannahjoyweldon@icloud.com?subject=${encodeURIComponent('Cleaning quote: ' + state.type)}&body=${encodeURIComponent(txt)}`;
     return txt;
   }
   render();

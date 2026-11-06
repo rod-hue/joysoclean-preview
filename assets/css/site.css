@@ -378,3 +378,7 @@ main,footer{position:relative;z-index:1}
 /* let the gradient fill reach the Y's right arm (negative tracking shrinks the box) */
 .hero__title .line:first-child .w{padding-right:.14em;margin-right:-.14em}
 .hero__title .line--script .w{padding-right:.1em}
+.cta__mail{margin-top:22px;font-family:var(--f-m);font-size:14px;letter-spacing:.06em}
+.cta__mail a{color:var(--blush);border-bottom:1px solid rgba(255,143,207,.4);padding-bottom:2px}
+.cta__mail a:hover{color:#fff;border-color:var(--pink)}
+.drawer__mail{font-family:var(--f-m);font-size:14px;color:var(--blush);margin-top:14px;word-break:break-all}
